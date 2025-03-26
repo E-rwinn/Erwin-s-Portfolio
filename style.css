@@ -1,0 +1,359 @@
+header {
+    margin-right: auto; 
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff0000;
+      text-decoration: none;
+      padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: baseline;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff0000;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  #Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 80px 20px;
+    gap: 40px; 
+  }
+  
+  .Erwin-Image {
+    border-radius: 25%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+    width: 600px;
+    height: 600px;
+  }
+  
+  .Home-info {
+    max-width: 600px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .Home-info h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .Home-info h1 span {
+    color: #ff0000;
+  }
+  
+  .Home-info h3 {
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0;
+  }
+  
+  .Home-info p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  button.hire-me {
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.hire-me:hover {
+    background-color: #b0a4a851;
+  }
+  
+  button.hire-me a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /*about me*/
+  #About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 80px 20px;
+    gap: 40px; 
+  }
+  
+  #About img {
+    border-radius: 25%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+    width: 600px;
+    height: 600px;
+  }
+  
+  .About-content {
+    max-width: 600px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .About-me {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #About p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  /*skills*/
+  .skill {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+  
+  }
+  
+  * {box-sizing:border-box}
+  
+  .container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white;
+  }
+  
+  .html {width: 85%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 24%; background-color: #f44336;} 
+  
+  
+  /*project*/
+  #Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 80px 20px;
+    width: 100%;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .Project-Box {
+    background-color: gray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .Project-Box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .Project-Box img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .projects-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #000000;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.549); 
+  }
+  
+  /*contact*/
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  #Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 80px 20px;
+  }
+  
+  #Contact h1 {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #ffffff;
+    box-shadow: none;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  form label {
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background-color: #f80000;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #d7d4d5;
+  }
+  
+  .eat {
+    align-items: flex-start;
+    align-items: center;
+  }
+  
+  /*DARK MODE*/
+  body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease; 
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1.dark-mode {
+    color: #ddd;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu-toggle:focus ~ .nav-links, 
+    .menu-toggle:hover ~ .nav-links {
+        display: flex;
+    }
+}  
