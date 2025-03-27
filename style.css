@@ -6,7 +6,7 @@ header {
       text-decoration: none;
       padding: 10px 20px;
   }
-  
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -229,7 +229,7 @@ header {
     margin-bottom: 30px;
     text-transform: capitalize;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.549); 
+    text-shadow: 2px 2px 4px rgba(38, 255, 0, 0.549); 
   }
   
   /*contact*/
