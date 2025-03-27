@@ -338,6 +338,22 @@ header {
   button:hover {
     background-color: #000000;
   }
+
+  /*bottom toggle bar */
+  .menu-toggle-bottom {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .menu-toggle-bottom:hover {
+    background-color: gray;
+    transition: all 0.3s ease;
+  }
   
   @media (max-width: 768px) {
     nav {
@@ -348,7 +364,6 @@ header {
         display: block;
     }
     .nav-links {
-        display: none;
         flex-direction: column;
         width: 100%;
     }
