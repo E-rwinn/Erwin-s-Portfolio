@@ -170,14 +170,15 @@ header {
   
   .skills {
     text-align: right; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
+    padding-top: 7px; 
+    padding-bottom: 7px; 
     color: white;
   }
   
 .html {width: 85%; background-color: #04AA6D;}
   .css {width: 80%; background-color: #2196F3;}
   .js {width: 24%; background-color: #f44336;} 
+  .Figma {width: 88%; background-color: #808080;} 
   
   
   /*project*/
@@ -316,7 +317,7 @@ header {
   }
   
   body.dark-mode {
-    background-color: #333;
+    background-color: #1d1d1d;
     color: #fff;
   }
   
