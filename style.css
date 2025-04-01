@@ -104,7 +104,7 @@ header {
   }
   
   button.hire-me:hover {
-    background-color: #b0a4a851;
+    background-color: #a00b0b;
   }
   
   button.hire-me a {
@@ -148,39 +148,30 @@ header {
   
   #About p {
     font-size: 18px;
-    color: #555;
+    color: #000000;
     line-height: 1.6;
   }
-  /*skills*/
-  .skill {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ff0000;
-    text-align: center;
-    margin-bottom: 10px;
   
-  }
-  
- s* {box-sizing:border-box}
-  
-  .container {
-    width: 100%; 
-    background-color: #ddd; 
-  }
-  
-  .skills {
-    text-align: right; 
-    padding-top: 7px; 
-    padding-bottom: 7px; 
+  button.Learn-More {
+    background-color: #ff0000;
     color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
   }
   
-.html {width: 85%; background-color: #04AA6D;}
-  .css {width: 80%; background-color: #2196F3;}
-  .js {width: 24%; background-color: #f44336;} 
-  .Figma {width: 88%; background-color: #808080;} 
+  button.Learn-More:hover {
+    background-color: #a00b0b;
+  }
   
-  
+  button.Learn-More a {
+    color: white;
+    text-decoration: none;
+  }
+
   /*project*/
   #Projects {
     display: flex;
@@ -202,7 +193,7 @@ header {
   }
   
   .Project-Box {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
@@ -222,16 +213,16 @@ header {
   }
   
   .projects-heading {
-    text-align: center;
-    font-size: 3rem;
+    font-size: 36px;
     font-weight: bold;
-    font-family: "Arial", sans-serif;
-    color: #000000;
-    margin-bottom: 30px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-shadow: 2px 2px 4px rgba(38, 255, 0, 0.549); 
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+
+
   }
+
+ 
   
   /*contact*/
   body {
@@ -353,6 +344,27 @@ header {
   .menu-toggle-bottom:hover {
     background-color: gray;
     transition: all 0.3s ease;
+  }
+
+  /*nav hire me button*/
+  button.hire-menav {
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.hire-menav:hover {
+    background-color: #a00b0b;
+  }
+  
+  button.hire-menav a {
+    color: white;
+    text-decoration: none;
   }
   
   @media (max-width: 768px) {
