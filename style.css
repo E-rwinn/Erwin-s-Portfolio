@@ -7,7 +7,7 @@ header {
       padding: 10px 20px;
   }
 
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     gap: 5px;
@@ -16,15 +16,14 @@ header {
     margin: auto;
   }
   
-  .brand-logo {
+.brand-logo {
     font-size: 24px;
     font-weight: bold;
     color: #ff0000;
     text-decoration: none;
   }
   
-  
-  nav a {
+nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
@@ -172,6 +171,24 @@ header {
     text-decoration: none;
   }
 
+  /*service*/
+  #Service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 80px 20px;
+  gap: 40px; 
+  }
+
+  .skils-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
   /*project*/
   #Projects {
     display: flex;
@@ -213,7 +230,7 @@ header {
   }
   
   .projects-heading {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     color: #ff0000;
     text-align: center;
@@ -221,9 +238,6 @@ header {
   }
 
   /*contact*/
-  body {
-    background-color: rgb(255, 255, 255);
-  }
   #Contact {
     display: flex;
     flex-direction: column;
@@ -293,14 +307,13 @@ header {
 
   /*DARK MODE*/
   body {
-    background-color: #fff;
     color: #000;
     font-family: Arial, sans-serif;
     transition: all 0.3s ease; 
   }
   
   h1 {
-    color: #333;
+    color: #ff0099;
   }
   
   body.dark-mode {
@@ -323,23 +336,7 @@ header {
   }
   
   button:hover {
-    background-color: #000000;
-  }
-
-  /*bottom toggle bar */
-  .menu-toggle-bottom {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-
-  .menu-toggle-bottom:hover {
-    background-color: gray;
-    transition: all 0.3s ease;
+    background-color: #781616;
   }
   
   @media (max-width: 768px) {
@@ -359,3 +356,4 @@ header {
         display: flex;
     }
 }  
+
