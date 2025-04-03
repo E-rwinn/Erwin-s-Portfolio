@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "tabnine.tabnine-vscode",
-        "ritwickdey.liveserver"
+        "ritwickdey.liveserver",
+        "illixion.vscode-vibrancy-continued"
     ]
 }
