@@ -15,7 +15,7 @@ nav {
     max-width: 1200px;
     margin: auto;
   }
-  
+
 .brand-logo {
     font-size: 24px;
     font-weight: bold;
@@ -50,16 +50,18 @@ nav a {
     background-color: #ffffff;
     padding: 80px 20px;
     gap: 40px; 
+    flex-wrap: wrap;
   }
   
-  .Erwin-Image {
+  #Home img{
     border-radius: 25%;
     object-fit: cover;
     box-shadow: 0 4px 10px rgb(255, 255, 255);
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
   }
-  
+
   .Home-info {
     max-width: 600px;
     text-align: left;
@@ -119,38 +121,40 @@ nav a {
     background-color: #ffffff;
     padding: 80px 20px;
     gap: 40px; 
+    flex-wrap: wrap;
   }
   
   #About img {
     border-radius: 25%;
     object-fit: cover;
     box-shadow: 0 4px 10px rgb(255, 255, 255);
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
   }
   
-  .About-content {
+  .About-info {
     max-width: 600px;
     text-align: left;
     background-color: #ffffff;
+    box-shadow: none;
     border-radius: 10px;
     padding: 30px;
   }
   
   .About-me {
     font-size: 36px;
-    font-weight: bold;
     color: #ff0000;
     text-align: center;
-    margin-bottom: 10px;
   }
   
   #About p {
     font-size: 18px;
     color: #000000;
     line-height: 1.6;
+    margin-bottom: 20px;
   }
-  
+
   button.Learn-More {
     background-color: #ff0000;
     color: white;
@@ -338,6 +342,32 @@ nav a {
   button:hover {
     background-color: #781616;
   }
+
+  /*DOWNLOAD CVVV*/
+  button.cv {
+    background-color: transparent;
+    color: none;
+    font-size: 16px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.cv:hover {
+    background-color: #ffffff2b;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.cv a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+
   
   @media (max-width: 768px) {
     nav {
