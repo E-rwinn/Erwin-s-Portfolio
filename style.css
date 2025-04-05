@@ -242,14 +242,15 @@ nav a {
   }
   
   .projects-container {
-    display: flex;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 30px;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    width: 100%;
     max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px;
   }
   
   .Project-Box {
