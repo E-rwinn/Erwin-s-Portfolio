@@ -250,6 +250,7 @@ nav a {
     align-items: center;
     width: 100%;
     max-width: 1200px;
+    text-align: center;
   }
   
   .Project-Box {
@@ -355,10 +356,6 @@ nav a {
     transition: all 0.3s ease; 
   }
   
-  h1 {
-    color: #ff0099;
-  }
-  
   body.dark-mode {
     background-color: #1d1d1d;
     color: #fff;
@@ -381,33 +378,11 @@ nav a {
   button:hover {
     background-color: #781616;
   }
+   
+  .menu-toggle:hover {
+    background-color: #ffffff;
+  }
 
-  /*DOWNLOAD CVVV*/
-  button.cv {
-    background-color: transparent;
-    color: none;
-    font-size: 16px;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: black;
-    transition: background-color 0.3s ease;
-  }
-  
-  button.cv:hover {
-    background-color: #ffffff2b;
-    transition: background-color 0.3s ease;
-  }
-  
-  button.cv a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-
-  
   @media (max-width: 768px) {
     nav {
         flex-direction: column;
