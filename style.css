@@ -237,8 +237,7 @@ nav a {
     background-color: #ffffff;
     padding: 80px 20px;
   }
-  
-<<<<<<< HEAD
+
   .projects-container {
     display: flex;
     display: grid;
@@ -256,11 +255,12 @@ nav a {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
-=======
+  }
+  
   .Service-info {
     max-width: 1100px;
     margin: 0 auto;
->>>>>>> 534f52f280bd00d2126df2a6754a6071324b695c
+
     text-align: center;
   }
   
