@@ -73,7 +73,7 @@ nav a {
   
   .Home-info h1 {
     font-size: 36px;
-    color: #333;
+    color: #000000;
   }
   
   .Home-info h1 span {
@@ -144,7 +144,7 @@ nav a {
   
   .About-me {
     font-size: 36px;
-    color: #ff0000;
+    color: #000000;
     text-align: center;
   }
   
@@ -183,7 +183,6 @@ nav a {
     background-color: #ffffff;
     padding: 80px 20px;
     gap: 40px; 
-    flex-wrap: wrap;
   }
   
   
@@ -219,6 +218,7 @@ nav a {
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
+    flex-wrap: wrap;
   }
   
   .Service-Box:hover {
@@ -233,13 +233,17 @@ nav a {
   }
 
   /*project*/
-  #Service {
+  #Project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     padding: 80px 20px;
+    gap: 40px; 
+    flex-wrap: wrap;
   }
 
   .projects-container {
-    display: flex;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 30px;
@@ -325,10 +329,7 @@ nav a {
     border-radius: 10px;
   }
   
-  @keyframes fillBar {
-    0% { width: 0; }
-    100% { width: 100%; }
-  }  
+ 
 
   /*contact*/
   #Contact {
@@ -424,10 +425,6 @@ nav a {
     border-radius: 5px;
   }
   
-  button:hover {
-    background-color: #781616;
-  }
-   
   .menu-toggle:hover {
     background-color: #ffffff;
   }
