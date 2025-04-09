@@ -8,8 +8,11 @@ header {
   }
 
 nav {
+  position: fixed;
+  width: 100vw;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     gap: 5px;
     align-items: baseline;
     max-width: 1200px;
@@ -412,7 +415,7 @@ nav a {
   }
   
   h1.dark-mode {
-    color: #ddd;
+    
   }
   
   button {
