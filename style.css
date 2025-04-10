@@ -7,12 +7,9 @@ header {
       padding: 10px 20px;
   }
 
-nav {
-  position: fixed;
-  width: 100vw;
+  nav {
     display: flex;
     justify-content: space-between;
-    justify-content: center;
     gap: 5px;
     align-items: baseline;
     max-width: 1200px;
