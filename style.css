@@ -1,424 +1,416 @@
 /*Header*/
 header {
-    margin-right: auto; 
-      font-size: 24px;
-      font-weight: bold;
-      color: #ff0000;
-      text-decoration: none;
-      padding: 10px 20px;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    align-items: baseline;
-    max-width: 1200px;
-    margin: auto;
-  }
-
-.brand-logo {
+  margin-right: auto; 
     font-size: 24px;
     font-weight: bold;
     color: #ff0000;
     text-decoration: none;
-  }
-  
-nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #ff0000;
-  }
-  
-  .menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  }
+    padding: 10px 20px;
+}
 
-  @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .menu-toggle {
-        display: block;
-    }
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-    }
-    .menu-toggle:focus ~ .nav-links, 
-    .menu-toggle:hover ~ .nav-links {
-        display: flex;
-    }
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: baseline;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .menu-toggle {
+      display: block;
+  }
+  .nav-links {
+      flex-direction: column;
+      width: 100%;
+  }
+  .menu-toggle:focus ~ .nav-links, 
+  .menu-toggle:hover ~ .nav-links {
+      display: flex;
+  }
 }  
 /*Home Section*/ 
-  #Home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 80px 20px;
-    gap: 40px; 
-    flex-wrap: wrap;
-  }
-  
-  #Home img{
-    border-radius: 25%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    max-width: 100%;
-  }
+#Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 80px 20px;
+  gap: 40px; 
+  flex-wrap: wrap;
+}
 
-  .Home-info {
-    max-width: 600px;
-    text-align: left;
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .Home-info h1 {
-    font-size: 36px;
-    color: #000000;
-  }
-  
-  .Home-info h1 span {
-    color: #ff0000;
-  }
-  
-  .Home-info h3 {
-    font-size: 24px;
-    color: #000000;
-    margin: 10px 0;
-  }
-  
-  .Home-info p {
-    font-size: 18px;
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  button.hire-me {
-    background-color: #ff0000;
-    color: white;
-    font-size: 16px;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button.hire-me:hover {
-    background-color: #a00b0b;
-  }
-  
-  button.hire-me a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /*About Section*/
-  #About {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 80px 20px;
-    gap: 40px; 
-    flex-wrap: wrap;
-  }
-  
-  #About img {
-    border-radius: 25%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    max-width: 100%;
-  }
-  
-  .About-info {
-    max-width: 600px;
-    text-align: left;
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .About-me {
-    font-size: 36px;
-    color: #000000;
-    text-align: center;
-  }
-  
-  #About p {
-    font-size: 18px;
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
+#Home img{
+  border-radius: 25%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+}
 
-  #About span {
-    color: red;
-  }
-  
-  button.Learn-More {
-    background-color: #ff0000;
-    color: white;
-    font-size: 16px;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button.Learn-More:hover {
-    background-color: #a00b0b;
-  }
-  
-  button.Learn-More a {
-    color: white;
-    text-decoration: none;
-  }
+.Home-info {
+  max-width: 600px;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 30px;
+}
 
-  /*service*/
-  #Service {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 80px 20px;
-    gap: 40px; 
-    flex-wrap: wrap;
-    }
+.Home-info h1 {
+  font-size: 36px;
+  color: #000000;
+}
 
-  .Service-info {
-    max-width: 600px;
-    text-align: left;
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .Service-h1 {
-    font-size: 36px;
-    color: #ff0000;
-    text-align: center;
-  }
+.Home-info h1 span {
+  color: #ff0000;
+}
 
+.Home-info h3 {
+  font-size: 24px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.Home-info p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+button.hire-me {
+  background-color: #ff0000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.hire-me:hover {
+  background-color: #a00b0b;
+}
+
+button.hire-me a {
+  color: white;
+  text-decoration: none;
+}
+
+/*About Section*/
+#About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 80px 20px;
+  gap: 40px; 
+  flex-wrap: wrap;
+}
+
+#About img {
+  border-radius: 25%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+}
+
+.About-info {
+  max-width: 600px;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.About-me {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+#About p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#About span {
+  color: red;
+}
+
+button.Learn-More {
+  background-color: #ff0000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.Learn-More:hover {
+  background-color: #a00b0b;
+}
+
+button.Learn-More a {
+  color: white;
+  text-decoration: none;
+}
+
+/*service*/
+#Service {
+  padding: 60px 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.Service-h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.Service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Service-Box {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.Service-Box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #ff4b4b; 
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
   .Service-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-  }
-  
-  .Service-Box {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .Service-Box:hover {
-    transform: translateY(-5px);
-  }
-  
-  .Service-Box img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .Service-Box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  }
-  
-  .Service-Box h2 {
-    font-size: 24px;
-    color: #ff0000;
-    margin: 15px 0 10px;
-  }
-  
-  .Service-Box p {
-    font-size: 15px;
-    color: #333;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-  
-  .skill-icon {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-  }
-  
-  .skill-bar {
-    height: 10px;
-    background-color: #eee;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .skill-level {
-    height: 100%;
-    background-color: #ff0000;
-    width: 0;
-    animation: fillBar 1.5s ease forwards;
-    border-radius: 10px;
-  }
-  
-  
- 
-  /*project*/
-  #Project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 80px 20px;
-    gap: 40px; 
-    flex-wrap: wrap;
-  }
-
-  .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    text-align: center;
-  }
-  
-  .Project-Box {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-  }
-
-  /*contact*/
-  #Contact {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 80px 20px;
-  }
-  
-  #Contact h1 {
-    font-size: 36px;
-    color: #000000;
-    margin-bottom: 20px;
-  }
-  
-  form {
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    text-align: center;
-  }
-  
-  form label {
-    font-size: 18px;
-    color: #000000;
-    display: block;
-    margin-bottom: 5px;
-    text-align: left;
-  }
-  
-  form input, form textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #000000;
-    border-radius: 25px;
-    font-size: 16px;
-    margin-bottom: 15px;
-  }
-  
-  form textarea {
-    height: 150px;
-    resize: none;
-  }
-  
-  form button {
-    background-color: #f80000;
-    color: white;
-    font-size: 18px;
-    border: none;
-    padding: 12px 30px;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
-    background-color: #d7d4d5;
-  }
-  
-  .eat {
-    align-items: flex-start;
-    align-items: center;
   }
 
-  /*DARK MODE*/
-  body {
-    color: #000;
-    font-family: Arial, sans-serif;
-    transition: all 0.3s ease; 
+  .Service-Box {
+    width: 90%;
   }
-  
-  body.dark-mode {
-    background-color: #1d1d1d;
-    color: #fff;
+}
+
+/*project*/
+.projects-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.Project-Box {
+  background-color: #fff;  
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.Project-Box:hover {
+  transform: translateY(-8px);
+}
+
+.Project-Box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);  
   }
-  
-  h1.dark-mode {
-   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;  
   }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .menu-toggle:hover {
-    background-color: #ffffff;
-  }
+}
+
+/*contact*/
+#Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
+
+#Contact h1 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+form label {
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+form textarea {
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  background-color: #f80000;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #a00b0b;
+}
+
+.eat {
+  align-items: flex-start;
+  align-items: center;
+}
+
+/*DARK MODE*/
+body {
+  color: #000;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease; 
+}
+
+body.dark-mode {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+h1.dark-mode {
+ color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu-toggle:hover {
+  background-color: #ffffff;
+}
 

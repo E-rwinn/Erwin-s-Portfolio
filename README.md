@@ -8,7 +8,7 @@ Welcome to my portfolio! I'm Erwin, a passionate web developer based in Boston, 
 ## 🛠️ Technologies & Skills
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** (Learning more!)
-- **Design:** Figma, 
+- **Design:** Figma
 - **Version Control:** Git, GitHub
 
 ### 🌐 Personal Portfolio Website

@@ -10,3 +10,4 @@ toggleBtn.addEventListener("click", () => {
     toggleBtn.textContent = "Switch to Dark Mode";
   }
 });
+
