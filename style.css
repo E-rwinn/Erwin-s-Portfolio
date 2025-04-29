@@ -260,10 +260,6 @@ button.Learn-More a {
     flex-direction: column;
     align-items: center;
   }
-
-  .Service-Box {
-    width: 90%;
-  }
 }
 
 /*project*/
