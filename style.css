@@ -1,11 +1,11 @@
 /*Header*/
 header {
-  margin-right: auto; 
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff0000;
-    text-decoration: none;
-    padding: 10px 20px;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+  text-decoration: none;
+  padding: 10px 20px;
 }
 
 nav {
@@ -46,33 +46,37 @@ nav a:hover {
 
 @media (max-width: 768px) {
   nav {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
+
   .menu-toggle {
-      display: block;
+    display: block;
   }
+
   .nav-links {
-      flex-direction: column;
-      width: 100%;
+    flex-direction: column;
+    width: 100%;
   }
-  .menu-toggle:focus ~ .nav-links, 
-  .menu-toggle:hover ~ .nav-links {
-      display: flex;
+
+  .menu-toggle:focus~.nav-links,
+  .menu-toggle:hover~.nav-links {
+    display: flex;
   }
-}  
-/*Home Section*/ 
+}
+
+/*Home Section*/
 #Home {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
   padding: 80px 20px;
-  gap: 40px; 
+  gap: 40px;
   flex-wrap: wrap;
 }
 
-#Home img{
+#Home img {
   border-radius: 25%;
   object-fit: cover;
   box-shadow: 0 4px 10px rgb(255, 255, 255);
@@ -139,7 +143,7 @@ button.hire-me a {
   justify-content: center;
   background-color: #ffffff;
   padding: 80px 20px;
-  gap: 40px; 
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -251,7 +255,7 @@ button.Learn-More a {
 
 .skill-level {
   height: 100%;
-  background-color: #ff4b4b; 
+  background-color: #ff4b4b;
   border-radius: 5px;
 }
 
@@ -259,10 +263,6 @@ button.Learn-More a {
   .Service-container {
     flex-direction: column;
     align-items: center;
-  }
-
-  .Service-Box {
-    width: 90%;
   }
 }
 
@@ -285,7 +285,7 @@ button.Learn-More a {
 }
 
 .Project-Box {
-  background-color: #fff;  
+  background-color: #fff;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -306,13 +306,13 @@ button.Learn-More a {
 
 @media screen and (max-width: 1024px) {
   .projects-container {
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 768px) {
   .projects-container {
-    grid-template-columns: 1fr;  
+    grid-template-columns: 1fr;
   }
 }
 
@@ -336,11 +336,12 @@ button.Learn-More a {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -354,6 +355,7 @@ button.Learn-More a {
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
 }
+
 /*contact*/
 #Contact {
   display: flex;
@@ -388,7 +390,8 @@ form label {
   text-align: left;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #000000;
@@ -409,7 +412,7 @@ form button {
   border: none;
   padding: 12px 30px;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -417,25 +420,20 @@ form button:hover {
   background-color: #a00b0b;
 }
 
-.eat {
-  align-items: flex-start;
-  align-items: center;
-}
-
 /*DARK MODE*/
 body {
   color: #000;
   font-family: Arial, sans-serif;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
 }
 
-body.dark-mode {
+/*body.dark-mode {
   background-color: #1d1d1d;
   color: #fff;
-}
+}*/
 
 h1.dark-mode {
- color: white;
+  color: white;
 }
 
 button {
@@ -451,4 +449,3 @@ button {
 .menu-toggle:hover {
   background-color: #ffffff;
 }
-
