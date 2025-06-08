@@ -1,20 +1,40 @@
 # Erwin's Portfolio
 
-Welcome to my portfolio! I'm Erwin, a passionate web developer based in Boston, MA. This portfolio showcases my projects, skills, and experience in coding.
+Welcome to my portfolio! I'm **Erwin**, a passionate web developer based in Boston, MA.  
+This site showcases my projects, skills, and experience in coding and web development.
+
+---
 
 ## 🚀 About Me
-- 💻 15-year-old web developer
+
+- 💻 15-year-old web developer  
+- 📍 Based in Boston, MA  
+- 🎯 Motivated to build modern, responsive, and user-friendly websites  
+
+---
 
 ## 🛠️ Technologies & Skills
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** (Learning more!)
-- **Design:** Figma
-- **Version Control:** Git, GitHub
 
-### 🌐 Personal Portfolio Website
-- **Description:** Personal Portfolio
-- **Tech Used:** HTML, CSS, JavaScript
+**Frontend:**  
+HTML | CSS | JavaScript | TailWind CSS
 
-## 📫 Contact
-- **GitHub:** @E-rwinn
-- **Email:**  Erwin.ucelo@gmail.com
+**Design Tools:**  
+Figma
+
+**Version Control:**  
+GitHub
+
+---
+
+## 🌐 Personal Portfolio Website
+
+- **Description:** A personal portfolio to showcase my projects and skills  
+- **Technologies Used:** HTML, CSS 
+- **Live Site:** [erwins-portfolio.vercel.app](https://erwins-portfolio.vercel.app/)
+
+---
+
+## 📫 Contact Me
+
+- **GitHub:** [@E-rwinn](https://github.com/E-rwinn)  
+- **Email:** Erwin.ucelo@gmail.com  
