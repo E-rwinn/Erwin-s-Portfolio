@@ -8,11 +8,17 @@ header {
   padding: 10px 20px;
 }
 
+body {
+  color: #000;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   gap: 5px;
-  align-items: baseline;
+  align-items: center;
   max-width: 1200px;
   margin: auto;
 }
@@ -77,7 +83,17 @@ nav a:hover {
     display: flex;
   }
 }
+/* Navigation Links for small phones*/
+@media (max-width: 320px) {
+  nav {
+    padding: 10px;
+  }
 
+  .nav-links a {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+}
 /*Home Section*/
 #Home {
   display: flex;
@@ -372,8 +388,6 @@ button.load-more a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
   padding: 80px 20px;
 }
 
@@ -384,11 +398,8 @@ button.load-more a {
 }
 
 form {
-  background-color: #ffffff;
-  box-shadow: 0 4px 10px rgb(255, 255, 255);
   padding: 30px;
   border-radius: 10px;
-  width: 100%;
   max-width: 500px;
   text-align: center;
 }
@@ -431,8 +442,32 @@ form button:hover {
   background-color: #a00b0b;
 }
 
-body {
-  color: #000;
-  font-family: Arial, sans-serif;
-  transition: all 0.3s ease;
-}
+
+/* 
+📱 Mobile Devices
+Small phones: 320px (e.g., iPhone SE)
+
+Medium phones: 375px (e.g., iPhone 12/13 Mini)
+
+Large phones: 414px (e.g., iPhone 14 Pro Max)
+
+📱📲 Large Phones / Small Tablets
+Small tablets / phablets: 600px (e.g., Kindle Fire)
+
+Foldables (half-open): 720px (e.g., Galaxy Z Fold)
+
+💻 Tablets
+Portrait tablets: 768px (iPad portrait)
+
+Landscape tablets: 1024px (iPad landscape)
+
+💻 Small Laptops / Netbooks
+Small laptops: 1280px (MacBook Air, Chromebook)
+
+🖥️ Desktops
+Standard desktops: 1366px (most common laptop resolution)
+
+HD desktops: 1440px
+
+Full HD: 1920px (common for 1080p monitors)
+*/
